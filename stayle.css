@@ -1,0 +1,55 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0800ff;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.h1{
+    padding: 8px;
+    background-color: #ff0000;
+    border: 5px solid black;
+}
+.counter {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    padding: 15px 15px;
+    background-color: #ff0000;
+    color: #c63333;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+.tasbih-button {
+    width: 120px;
+    height: 120px;
+    background-color: #ff000d;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.3s;
+    border: 5px solid black;
+}
+.tasbih-button:active {
+    background-color: #1565c0;
+}
+.reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(0, 100%, 50%);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: 5px solid black;
+
+}
+.reset-button:hover {
+    background-color: #d32f2f;
+}
